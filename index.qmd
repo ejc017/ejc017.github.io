@@ -1,0 +1,18 @@
+---
+title: "Easton Contorno"
+image: headshot.png
+about:
+  template: jolla
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/ejc017
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/easton-contorno-a8a8ab431
+    - icon: inboxes
+      text: Contact
+      href: mailto:ejcontorno2@gmail.com
+---
+
+I am an Industrial Engineering student at the University of Arkansas with interests in problem solving, research, technology, and improving the way systems work. This ePortfolio highlights selected projects, experience, and skills I have developed through coursework and professional experiences.
