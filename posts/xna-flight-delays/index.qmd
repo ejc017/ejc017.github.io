@@ -8,11 +8,11 @@ image: slide-title.png
 
 ## Team Members
 
-- Derek Camacho – [e-portfolio](#) <!-- TODO: replace # with Derek's e-portfolio URL -->
+- [Derek Camacho](https://derek-c85.github.io/)
 - [Easton Contorno](https://ejc017.github.io/)
 - Josiah Cox – [e-portfolio](#) <!-- TODO: replace # with Josiah's e-portfolio URL -->
 - Reese Martin – [e-portfolio](#) <!-- TODO: replace # with Reese's e-portfolio URL -->
-- Isaac Shilling – [e-portfolio](#) <!-- TODO: replace # with Isaac's e-portfolio URL -->
+- [Isaac Shilling](https://isaacshilling06.github.io/posts/Data%20Visualization/)
 
 ## About the Data Set
 
