@@ -11,7 +11,14 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Welcome To My Blog\n\n\n\n\n\n\nTristan O’Malley\n\n\nSep 28, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nHarlow Malloc\n\n\nOct 1, 2026\n\n\n\n\n\n\nNo matching items"
+    "text": "Welcome To My Blog\n\n\n\n\n\n\nTristan O’Malley\n\n\nSep 28, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nHarlow Malloc\n\n\nOct 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nDelays, Cancellations, and Long Hauls: A Month of Flights at XNA\n\n\n\n\n\n\nDerek Camacho, Easton Contorno, Josiah Cox, Reese Martin, and Isaac Shilling\n\n\nNov 13, 2026\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -21,11 +28,53 @@
     "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "objectID": "posts/xna-flight-delays/index.html",
+    "href": "posts/xna-flight-delays/index.html",
+    "title": "Delays, Cancellations, and Long Hauls: A Month of Flights at XNA",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "Derek Camacho – e-portfolio \nEaston Contorno\nJosiah Cox – e-portfolio \nReese Martin – e-portfolio \nIsaac Shilling – e-portfolio"
+  },
+  {
+    "objectID": "posts/xna-flight-delays/index.html#team-members",
+    "href": "posts/xna-flight-delays/index.html#team-members",
+    "title": "Delays, Cancellations, and Long Hauls: A Month of Flights at XNA",
+    "section": "",
+    "text": "Derek Camacho – e-portfolio \nEaston Contorno\nJosiah Cox – e-portfolio \nReese Martin – e-portfolio \nIsaac Shilling – e-portfolio"
+  },
+  {
+    "objectID": "posts/xna-flight-delays/index.html#about-the-data-set",
+    "href": "posts/xna-flight-delays/index.html#about-the-data-set",
+    "title": "Delays, Cancellations, and Long Hauls: A Month of Flights at XNA",
+    "section": "About the Data Set",
+    "text": "About the Data Set\nOur data comes from the U.S. Department of Transportation’s Bureau of Transportation Statistics (BTS), Reporting Carrier On-Time Performance database. We filtered it to every scheduled departure from Northwest Arkansas National Airport (XNA) in January 2025, which gave us 933 flights. Each row is one flight and includes the date, the operating airline, the departure and arrival delays in minutes, whether the flight was canceled, the distance flown in miles, and the time spent in the air in minutes. Some fields are blank for canceled or diverted flights, so the number of flights used varies a little from question to question."
+  },
+  {
+    "objectID": "posts/xna-flight-delays/index.html#question-1-how-did-departure-delays-change-from-day-to-day-during-january",
+    "href": "posts/xna-flight-delays/index.html#question-1-how-did-departure-delays-change-from-day-to-day-during-january",
+    "title": "Delays, Cancellations, and Long Hauls: A Month of Flights at XNA",
+    "section": "Question 1: How did departure delays change from day to day during January?",
+    "text": "Question 1: How did departure delays change from day to day during January?\nWhy it interests us: XNA is our local airport, and many of us fly out of it during winter break. We wanted to know whether delays were spread evenly through the month or bunched up on certain days, perhaps because of winter weather.\nHow we used Excel: On the Plots sheet we grouped the 898 flights that had a recorded departure delay by date and used AVERAGEIFS to find the mean departure delay for each of the 31 days. Negative values mean the flights left early on average.\nHow we developed the visual: We used a line chart because the data is a time series and a line shows the rise and fall from one day to the next. The title states the main finding, a peak on January 10, and the sentence under it gives the exact number: an average of 185 minutes late across 14 flights. We kept a zero line on the y-axis so readers can see which days averaged early departures.\n\n\n\nDeparture delays peaked on January 10"
+  },
+  {
+    "objectID": "posts/xna-flight-delays/index.html#question-2-which-airlines-canceled-the-highest-share-of-their-flights",
+    "href": "posts/xna-flight-delays/index.html#question-2-which-airlines-canceled-the-highest-share-of-their-flights",
+    "title": "Delays, Cancellations, and Long Hauls: A Month of Flights at XNA",
+    "section": "Question 2: Which airlines canceled the highest share of their flights?",
+    "text": "Question 2: Which airlines canceled the highest share of their flights?\nWhy it interests us: When you book a flight, the airline you pick can matter. We wanted to know whether some carriers at XNA were more likely than others to cancel.\nHow we used Excel: For each operating carrier we used COUNTIFS to count scheduled departures and canceled flights, then divided cancellations by scheduled departures to get a cancellation rate. The flight counts were: OH 20, AA 99, YX 92, MQ 473, OO 162, F9 4, G4 52, UA 31.\nHow we developed the visual: We chose a bar chart sorted from highest to lowest rate so the ranking is easy to read. We plotted rates rather than raw counts because MQ flies far more flights than any other carrier, so counts alone would be misleading. The supporting text makes that point directly: MQ canceled the most flights (20), but OH had the highest rate (10%, 2 of 20). We also noted in our presenter notes that one month of data cannot show that the airline caused the difference.\n\n\n\nCancellation rates varied by operating carrier"
+  },
+  {
+    "objectID": "posts/xna-flight-delays/index.html#question-3-how-are-arrival-delays-distributed",
+    "href": "posts/xna-flight-delays/index.html#question-3-how-are-arrival-delays-distributed",
+    "title": "Delays, Cancellations, and Long Hauls: A Month of Flights at XNA",
+    "section": "Question 3: How are arrival delays distributed?",
+    "text": "Question 3: How are arrival delays distributed?\nWhy it interests us: Airlines often say most flights are on time, and we wanted to check that and see how bad the worst delays really were.\nHow we used Excel: We used the 897 flights with a recorded arrival delay and sorted them into 60-minute bins with the FREQUENCY function. We also used COUNTIF to find how many flights arrived early (575, or 64%) and MAX to find the longest delay (1,810 minutes).\nHow we developed the visual: A histogram was the best way to show the shape of the distribution. We kept the empty bins and the single 1,810-minute flight so the long right tail is visible rather than hidden. Each x-axis label is the midpoint of its bin (for example, −30 stands for −60 to under 0 minutes). The title states the takeaway: most flights arrived early, but a few were hours late.\n\n\n\nMost flights arrived early, but a few ran hours late"
+  },
+  {
+    "objectID": "posts/xna-flight-delays/index.html#question-4-is-there-a-relationship-between-flight-distance-and-time-in-the-air",
+    "href": "posts/xna-flight-delays/index.html#question-4-is-there-a-relationship-between-flight-distance-and-time-in-the-air",
+    "title": "Delays, Cancellations, and Long Hauls: A Month of Flights at XNA",
+    "section": "Question 4: Is there a relationship between flight distance and time in the air?",
+    "text": "Question 4: Is there a relationship between flight distance and time in the air?\nWhy it interests us: We expected longer flights to take more time, but we wanted to measure how strong the relationship is and see how much flights on the same route vary.\nHow we used Excel: We paired distance (miles) with air time (minutes) for the 897 flights that had both values and used the CORREL function to calculate the Pearson correlation coefficient, which was r = 0.94.\nHow we developed the visual: A scatter plot is the standard way to show the relationship between two numeric variables, with one marker per flight. Because many flights fly the same route, the points form vertical columns at each distance. Those columns show that flights covering the same distance still differed in how long they spent in the air. We labeled both axes with units and put the correlation value in the supporting sentence.\n\n\n\nLonger flights generally spent more time airborne"
   },
   {
     "objectID": "index.html",
